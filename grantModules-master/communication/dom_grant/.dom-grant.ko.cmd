@@ -1,0 +1,1 @@
+cmd_/root/comm/dom_grant/dom-grant.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.2/scripts/module-common.lds --build-id  -o /root/comm/dom_grant/dom-grant.ko /root/comm/dom_grant/dom-grant.o /root/comm/dom_grant/dom-grant.mod.o

@@ -1,0 +1,1 @@
+cmd_/root/comm/getGrant/get_grant.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.2/scripts/module-common.lds --build-id  -o /root/comm/getGrant/get_grant.ko /root/comm/getGrant/get_grant.o /root/comm/getGrant/get_grant.mod.o
